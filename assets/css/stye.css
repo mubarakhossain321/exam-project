@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+    --heading-font: "Overlock", sans-serif;
+    --body-font: "Lato", sans-serif;
+}
+/* comman */
+body {
+    font-family: var(--body-font);
+}
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+.custom {
+    background-color: #E7272D;
+    color: #fff;
+    border-radius: 0;
+    padding: 12px 25px;
+    border: 0;         
+}
+.section-margin {
+    margin-top: 80px;
+}
+
+
+
+
+/* navbar */
+.haedar .container {
+    background-color: #fff;
+    border-radius: 10px;
+    
+    /* margin-top: 30px; */
+}
+.haedar {
+    position: absolute;
+    width: 100%;
+}
+
+.icon{
+    border-left: 1px solid rgba(0, 0, 0, 0.35);
+    margin: 0 20px;
+    padding-left: 10px;
+}
+
+
+.bennar {
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/bg-bennar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+.title h1 {
+    font-size: 145px;
+    font-weight: 400;
+    padding-top: 145px;
+    
+}
+.title-two span {
+    /* width: 200px;
+    height: 28px; */
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #E7272D;
+    padding: 0px 30px;
+    font-family: var(--heading-font);
+    margin-left: 148px !important;
+}
+.title-3 {
+    margin-top: 20px;
+
+    span {
+        font-size: 28px;
+        font-weight: 400;
+        margin-left: 280px;
+    }
+    .line {
+        width: 200px;
+        height: 2px;
+        background-color: #E7272D;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .title-3    {
+        margin-left: 0;
+    }
+ }
+
+
+
+/* best-food */
+
+
+.food-ideas {
+    width: 445px;
+    font-size: 40px;
+    color: #1B1B1B;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pragraph {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #6666;
+
+}
+
+.food-time {
+    background-image: url(../image/bg-smale.png);
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 15px 0 15px 20px;
+
+    span {
+        font-size: 13px;
+        
+        
+    }
+}
+strong {
+    font-size: 16px;
+}
+
+
+/* our food items */
+
+.food-name {
+    h2 {
+        font-size: 45px;
+        line-height: 67px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #1B1B1B;
+    }
+}
+.food-menu-list {
+    margin-bottom: 50px;
+
+    ul {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+    }
+
+    .list-margin {
+        margin: auto;
+        border-radius: 10px;
+        padding: 0 20px;
+
+        &:hover{
+            background-color: #E7272D;
+            color: #ffffff;
+        }
+    }
+}
+
+.food-items {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+.food-text-1 {
+    padding: 10px 0;
+    background-color: #fff;
+    width:260px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    border-left: 1px solid #CCCCCC;
+    strong {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    i {
+        color: #E7272D;
+        padding-left: 12px;
+    }
+    span {
+        font-size: 16px;
+        padding: 0;
+        font-weight: 600;
+    }
+}
+
+
+.food-text-area {
+    border: 1px solid #CCCCCC;
+    
+    h6 {
+        font-size: 22px;
+        padding: 10px;
+        color: #000;
+    }
+    .food-text-2{
+        display: inline-block;
+        p {
+            font-size: 16px;
+            padding:0 10px;
+        }
+        i {
+            font-size: 10px;
+            color: #E7272D;
+            /* background-color: #E7272D; */
+            padding-bottom: 7px;
+            /* margin-right: 10px; */
+        }   
+    }
+}
+.food-text-3 {
+    border: 1px solid #E7272D;
+    border-radius: 10px;
+    justify-content: center;
+    i {
+        font-size: 30px;
+        color: #E7272D;
+        padding: 10px;
+    }
+    p {
+        color: #E7272D;
+        font-size: 18px;
+        margin-left: 10px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+
+
+/* book form */
+
+.Book-form {
+    height: 550px;
+    width: 100%;
+    background-image: url(../image/bg-bennar-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;   
+}
+.table-text {
+    margin-top: 60px;
+    h2 {
+        width: 500px;
+        font-size: 48px;
+        line-height: 68px;
+        margin-top: 60px;
+        color: #fff;
+    }
+    p {
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-top: 25px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+    strong {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    span {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+.info-box {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin-top: 62px;
+    margin-top: 60px;
+    margin-left: 36px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.person {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.phone {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.date {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.time-2 {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+/* Our Food Gallery */
+
+.Food-Gallery {
+    margin-bottom: 80px;
+}
+
+.gallery-name {
+    margin-bottom: 50px;
+
+    h3 {
+        font-size: 48px;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #000;
+    }
+}
+
+.image-mane {
+    width: 100%;
+    object-fit: cover;
+}
+.image-one {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 29px;
+}
+.image-tow {
+    width: 100%;
+    object-fit: cover;
+}
+.image-three {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 29px;
+}
+.image-fure {
+    width: 100%;
+    object-fit: cover;
+}
+/* footer start */
+
+.footer-bg {
+    background-color: #1B1B1B;
+}
+.logo-container {
+    margin-bottom: 60px;
+}
+.line-one {
+    width: 500px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin-top: 30px;
+}
+.last {
+    background-color: #262525;
+}
